@@ -4,5 +4,5 @@ def find_even_values(src)
   # Output all even values in each nested array
   src.each do |inner_array|
     inner_array.each do |element|
-      
+      p element % 2 == 0 ? 
 end
